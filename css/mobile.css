@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+  .grid,
+  .grid-3,
+  .about .grid,
+  .job-information .grid,
+  .certificate .grid,
+  .project .grid,
+  .footer .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  nav {
+    width: 100%;
+  }
+  nav .container {
+    flex-direction: column;
+    margin: 90px 0;
+    align-items: start;
+    transform: translate(40%, 0);
+  }
+
+  .about {
+    margin-top: 50px;
+  }
+
+  .footer .grid {
+    height: 100%;
+    text-align: start;
+    transform: translate(40%, 0);
+  }
+}
