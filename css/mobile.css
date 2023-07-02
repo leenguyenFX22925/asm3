@@ -17,7 +17,8 @@
     flex-direction: column;
     margin: 90px 0;
     align-items: start;
-    transform: translate(40%, 0);
+    transform: translate(80%, 0);
+    width: 150px;
   }
 
   .about {
@@ -27,6 +28,7 @@
   .footer .grid {
     height: 100%;
     text-align: start;
-    transform: translate(40%, 0);
+    transform: translate(25%, 0);
+    width: 150px;
   }
 }
